@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/james_consulting/static/css/main.754ebb54.css",
+    "main.js": "/james_consulting/static/js/main.8ba7eae7.js",
+    "index.html": "/james_consulting/index.html",
+    "main.754ebb54.css.map": "/james_consulting/static/css/main.754ebb54.css.map",
+    "main.8ba7eae7.js.map": "/james_consulting/static/js/main.8ba7eae7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.754ebb54.css",
+    "static/js/main.8ba7eae7.js"
+  ]
+}
