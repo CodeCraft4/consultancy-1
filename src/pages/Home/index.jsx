@@ -5,7 +5,6 @@ import Summary from "./components/Summary";
 import Footer from "components/Footer";
 // import Contact from "./components/Contact";
 import WorkingProcess from "./components/WorkingProcess";
-import WhatsAppCom from "components/WhatsAppCom";
 
 const Home = () => {
   return (
@@ -16,7 +15,6 @@ const Home = () => {
       <WorkingProcess />
       {/* <Contact/> */}
       <Footer />
-      <WhatsAppCom/>
     </React.Fragment>
   );
 };

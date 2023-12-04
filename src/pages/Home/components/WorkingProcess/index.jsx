@@ -13,7 +13,7 @@ const WorkingProcess = () => {
       >
         REAL-TIME ACTIONABLE ANALYTICS
       </Typography>
-      <Box position={"relative"} bgcolor={"rgb(2, 5, 20)"} color={"white"}>
+      <Box position={"relative"} bgcolor={"rgb(2, 5, 20)"} height={{md:"1000px",sm:"1400px"}} color={"white"}>
         <img
           src="https://images.pexels.com/photos/449559/pexels-photo-449559.jpeg?auto=compress&cs=tinysrgb&w=800"
           alt=""
@@ -21,7 +21,8 @@ const WorkingProcess = () => {
             position: "relative",
             width: "100%",
             opacity: ".3",
-            height: "960px",
+            height:"100%",
+            display:{sm:"none"}
           }}
         />
         <Box
@@ -29,25 +30,25 @@ const WorkingProcess = () => {
           width={"100%"}
           margin={"auto"}
           py={{ md: "4em", xs: "10px" }}
-          position={"absolute"}
+          position={{md:"absolute",sm:"absolute"}}
           top={20}
         >
           <Container maxWidth="lg">
             <Box margin={"auto"}>
               <Typography
                 pt={{ md: 2, xs: 3 }}
-                fontSize={{ md: "1.4em" }}
+                fontSize={ {md:"1.4em"} }
                 fontWeight={400}
               >
                 OPTIMUM SOURCING SERVICES FOR YOUR BUSINESS
               </Typography>
-              <Typography fontSize={{ md: "3em" }} fontWeight={300}>
+              <Typography py={1} fontSize={{ md: "3em",sm:"2.2em",xs:"1.7em" }} fontWeight={300}>
                 Our Working Process
               </Typography>
 
               <Grid container columnSpacing={3} sx={{ py: { md: 10 } }}>
                 {SERVICES.map((item) => (
-                  <Grid item md={3}>
+                  <Grid item md={3} sm={6} mt={{md:0,sm:2,xs:3}}>
                     <Box
                       borderRadius={3}
                       p={"15px 20px"}

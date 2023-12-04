@@ -2,14 +2,14 @@ import { Box, Button, Container, Typography } from "@mui/material";
 
 const Header = () => {
   return (
-    <Box>
+    <Box height={{md:"560px",sm:"430px",xs:"400px"}}>
       <img
         src="https://images.pexels.com/photos/257636/pexels-photo-257636.jpeg?auto=compress&cs=tinysrgb&w=800"
         alt="Snow wall Paper"
         width={"100%"}
-        style={{ position: "relative",height:"560px" }}
+        style={{ position: "relative",height:"100%" }}
       />
-      <Typography fontSize={"4em"} color={"white"} textAlign={"center"} position={"absolute"} top={150} width={"100%"}>Shah Faisal</Typography>
+      <Typography fontSize={{md:"4em",xs:"2.5em"}} color={"white"} textAlign={"center"} position={"absolute"} top={{md:150,xs:100}} width={"100%"}>Shah Faisal</Typography>
       <Box position={"absolute"} bottom={0} mb={{md:"-2em"}} width={"100%"}>
         <Container maxWidth="md" sx={{ bgcolor: "white" }}>
           <Box textAlign={"center"} p={1} pt={4}>

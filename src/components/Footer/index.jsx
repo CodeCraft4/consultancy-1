@@ -9,6 +9,7 @@ import {
  
   Typography,
 } from "@mui/material";
+import WhatsAppCom from "components/WhatsAppCom";
 import React from "react";
 
 const Footer = () => {
@@ -20,7 +21,7 @@ const Footer = () => {
     >
       <Container maxWidth="lg">
         <Grid container py={6} px={"1em"}>
-          <Grid item md={3}>
+          <Grid item md={3} sm={6}>
             <Typography fontSize={"1.1em"} pb={2} mt={{ md: 0, xs: 3 }}>
               ABOUT US
             </Typography>
@@ -30,7 +31,7 @@ const Footer = () => {
               Efficient Services For Elevating Your Sell And Purchase Margins.
             </Typography>
           </Grid>
-          <Grid item md={3}>
+          <Grid item md={3} sm={6}>
             <Typography
               fontSize={"1.2em"}
               pb={2}
@@ -75,7 +76,7 @@ const Footer = () => {
               </ListItem>
             </List>
           </Grid>
-          <Grid item md={3}>
+          <Grid item md={3} sm={6}>
             <Typography
               fontSize={"1.2em"}
               pb={2}
@@ -93,7 +94,7 @@ const Footer = () => {
               <ListItem>Contact</ListItem>
             </List>
           </Grid>
-          <Grid item md={3} pr={{ md: 5 }}>
+          <Grid item md={3} sm={6} pr={{ md: 5 }}>
             <Typography fontSize={"1.2em"} pb={2} mt={{ md: 0, xs: 3 }}>
               CONNECT
             </Typography>
@@ -110,6 +111,7 @@ const Footer = () => {
           </Grid>
         </Grid>
       </Container>
+      {/* <WhatsAppCom/> */}
     </Box>
   );
 };
