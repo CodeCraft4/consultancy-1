@@ -9,7 +9,8 @@ const Header = () => {
         width={"100%"}
         style={{ position: "relative",height:"560px" }}
       />
-      <Box position={"absolute"} bottom={0} mb={"-2em"} width={"100%"}>
+      <Typography fontSize={"4em"} color={"white"} textAlign={"center"} position={"absolute"} top={150} width={"100%"}>Shah Faisal</Typography>
+      <Box position={"absolute"} bottom={0} mb={{md:"-2em"}} width={"100%"}>
         <Container maxWidth="md" sx={{ bgcolor: "white" }}>
           <Box textAlign={"center"} p={1} pt={4}>
             <Typography fontSize={"1.4em"}>

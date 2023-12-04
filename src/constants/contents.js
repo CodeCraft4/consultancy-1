@@ -1,39 +1,39 @@
 export const SUMMARY = [
   {
     logo: "https://sourcefellow.com/wp-content/uploads/2021/12/growthcc0-.png",
-    title: "SERVICE1",
+    title: "PRICE NEGOTIATION",
     description:
-      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.",
+      "The strategy to negotiate between the buyer and the seller to build a equally profitable, long-term working relationship",
   },
   {
     logo: "https://sourcefellow.com/wp-content/uploads/2021/12/successcc0-.png",
-    title: "SERVICE2",
+    title: "SAMPLE CONSOLIDATION",
     description:
-      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.",
+      "You call product samples from multiple suppliers but also need a cost-effiective way to get these samples delivered to you.      ",
   },
   {
     logo: "https://sourcefellow.com/wp-content/uploads/2021/12/cloudcc0-.png",
-    title: "SERVICE3",
+    title: "PRODUCT SOURCING",
     description:
-      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.",
+      "Do you want your business to attain a product to sell? Or want a suitable supplier for your product to be promoted? Help is here.      ",
   },
   {
     logo: "https://sourcefellow.com/wp-content/uploads/2021/12/growthcc0-.png",
-    title: "SERVICE1",
+    title: "3PL WAREHOUSE",
     description:
-      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.",
+      "Order fulfilment is an integral part of your operation, the logistics should be accurate. We will serve to ensure accuracy and efficiency.      ",
   },
   {
-    logo: "https://sourcefellow.com/wp-content/uploads/2021/12/successcc0-.png",
-    title: "SERVICE2",
+    logo: "https://sourcefellow.com/wp-content/uploads/2021/12/reportcc0-.png",
+    title: "TRADEMARK IN CHINA",
     description:
-      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.",
+      "The person who registers for the trademark in china, will get the right to distribute and sell the products. Affective and beneficial.      ",
   },
   {
-    logo: "https://sourcefellow.com/wp-content/uploads/2021/12/cloudcc0-.png",
-    title: "SERVICE3",
+    logo: "https://sourcefellow.com/wp-content/uploads/2021/12/reportcc0-.png",
+    title: "PRODUCT INSPECTION",
     description:
-      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.",
+      "Inspect your products in a feasible way for compliance with your specifications and requirements to insure quality and save time.",
   },
 ];
 

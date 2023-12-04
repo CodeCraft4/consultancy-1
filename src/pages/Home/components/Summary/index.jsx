@@ -24,7 +24,7 @@ const Summary = () => {
               justifyContent={"center"}
               alignItems={"center"}
             >
-              <Box boxShadow={8} borderRadius={3} p={4}>
+              <Box boxShadow={8} borderRadius={3} p={4} height={"430px"}>
                 <Box
                   position={"relative"}
                   left={"30%"}
@@ -35,6 +35,7 @@ const Summary = () => {
                   bgcolor={"#3c096c"}
                   padding={2}
                   boxShadow={10}
+                  
                 >
                   <img
                     style={{
@@ -47,7 +48,7 @@ const Summary = () => {
                     alt="Iogo"
                   />
                 </Box>
-                <Typography fontSize={"1.5em"} mt={5}>
+                <Typography fontSize={"1.3em"} fontWeight={500} mt={5} color={"gray"}>
                   {i.title}
                 </Typography>
                 <Typography fontSize={"14px"} py={3}>
