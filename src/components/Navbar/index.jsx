@@ -8,11 +8,9 @@ import ListItem from "@mui/material/ListItem";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import {
-  Button,
-  Container,
+ 
   ListItemText,
 } from "@mui/material";
-import { AccountCircle } from "@mui/icons-material";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = React.useState(false);

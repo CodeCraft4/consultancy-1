@@ -1,6 +1,5 @@
-import { Margin } from "@mui/icons-material";
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
-import { SUMMARY, SERVICES } from "constants/contents";
+import { SUMMARY } from "constants/contents";
 import React from "react";
 
 const Summary = () => {

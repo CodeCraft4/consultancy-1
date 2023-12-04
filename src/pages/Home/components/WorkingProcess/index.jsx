@@ -1,11 +1,4 @@
-import {
-  Box,
-  Button,
-  Container,
-  Divider,
-  Grid,
-  Typography,
-} from "@mui/material";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import { SERVICES } from "constants/contents";
 import React from "react";
 
@@ -22,7 +15,7 @@ const WorkingProcess = () => {
       </Typography>
       <Box position={"relative"} bgcolor={"rgb(2, 5, 20)"} color={"white"}>
         <img
-          src="https://c4.wallpaperflare.com/wallpaper/953/464/984/winter-snow-house-trees-nature-forest-mountains-sky-white-wallpaper-preview.jpg"
+          src="https://images.pexels.com/photos/449559/pexels-photo-449559.jpeg?auto=compress&cs=tinysrgb&w=800"
           alt=""
           style={{
             position: "relative",
@@ -66,9 +59,13 @@ const WorkingProcess = () => {
                       height={550}
                     >
                       <img
-                        style={{ borderRadius: "10px" }}
+                        style={{
+                          borderRadius: "10px",
+                          opacity: ".9",
+                          ":hover": { opacity: "1" },
+                        }}
                         src={item.poster}
-                        alt="Image"
+                        alt="Servise poster"
                         width={"100%"}
                         height={"180px"}
                       />

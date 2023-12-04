@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <Box>
       <img
-        src="https://c4.wallpaperflare.com/wallpaper/953/464/984/winter-snow-house-trees-nature-forest-mountains-sky-white-wallpaper-preview.jpg"
+        src="https://images.pexels.com/photos/257636/pexels-photo-257636.jpeg?auto=compress&cs=tinysrgb&w=800"
         alt="Snow wall Paper"
         width={"100%"}
         style={{ position: "relative",height:"560px" }}
