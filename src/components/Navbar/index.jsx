@@ -110,7 +110,7 @@ const Navbar = () => {
                     textDecoration: "none",
                   }}
                 >
-                  JAMES'S CONSULTANCY
+                  <img width={100} height={50} src="https://sourcefellow.com/wp-content/uploads/2021/12/FinalSFLogo-removebg-preview.png" alt="Brand Logo" />
                 </ListItemText>
             </ListItemText>
             <List
@@ -125,7 +125,9 @@ const Navbar = () => {
               }}
             >
               <ListItem>
+              <ListItemText href="/Trails" sx={{ textDecoration: "none" }}>
                   About
+                </ListItemText>
               </ListItem>
               <ListItem>
                 <ListItemText href="/Trails" sx={{ textDecoration: "none" }}>
@@ -155,9 +157,7 @@ const Navbar = () => {
                 </ListItemText>
               </ListItem>
             </List>
-            <Button sx={{ display: "flex", color: "white", ml: "20px" }}>
-              <AccountCircle sx={{ mr: 0.8, fontSize: "2.3em" }} /> LogIn
-            </Button>
+            
           </Toolbar>
       </AppBar>
       <nav>
