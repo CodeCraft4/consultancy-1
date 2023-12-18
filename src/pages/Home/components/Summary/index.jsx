@@ -4,8 +4,8 @@ import React from "react";
 
 const Summary = () => {
   return (
-    <Box py={{ md: "6em",xs:2 }}>
-      <Typography textAlign={"center"} fontSize={{ md: "2.5em",xs:"1.5em" }} pb={{md:7,xs:0}}>
+    <Box py={{ md: "6em",xs:"4em" }} >
+      <Typography textAlign={"center"} fontSize={{ md: "2.5em",xs:"1.7em" }} pb={{md:7,xs:0}}>
         SERVICES
       </Typography>
       <Container maxWidth="md">
@@ -19,9 +19,9 @@ const Summary = () => {
               sx={{
                 textAlign: "center",
                 "&:nth-child(1)": { mt: {md:"8em"} },
+                "&:nth-child(2)": { mt: {md:"4.5em"} },
                 "&:nth-child(4)": { mt: {md:"8em"} },
-                "&:nth-child(2)": { mt: {md:"4em"} },
-                "&:nth-child(5)": { mt: {md:"4em"} },
+                "&:nth-child(5)": { mt: {md:"4.5em"} },
               }}
               justifyContent={"center"}
               alignItems={"center"}
