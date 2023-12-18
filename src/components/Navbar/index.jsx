@@ -20,6 +20,8 @@ const Navbar = () => {
     setMobileOpen((prevState) => !prevState);
   }
 
+const drawerWidth=200;
+
   const drawer = (
     // toggle for small screen
     <Box
@@ -86,7 +88,7 @@ const Navbar = () => {
               aria-label="open drawer"
               edge="start"
               onClick={handleDrawerToggle}
-              sx={{ mr: 2, display: { sm: "none" } }}
+              sx={{ mr: 2, display: { md: "none" } }}
             >
               <MenuIcon />
             </IconButton>
@@ -167,8 +169,9 @@ const Navbar = () => {
             keepMounted: true,
           }}
           sx={{
-            display: { xs: "block", sm: "none" },
-            "& .MuiDrawer-paper": { boxSizing: "border-box" },
+            display: { xs: "block", sm: "block" },
+            
+            "& .MuiDrawer-paper": { boxSizing: "border-box", width:drawerWidth},
           }}
         >
           {drawer}
