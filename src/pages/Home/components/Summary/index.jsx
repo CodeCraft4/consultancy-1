@@ -4,7 +4,7 @@ import React from "react";
 
 const Summary = () => {
   return (
-    <Box py={{ md: "6em",xs:"4em" }} >
+    <Box py={{ md: "6em",xs:"4em" }} id="services">
       <Typography textAlign={"center"} fontSize={{ md: "2.5em",xs:"1.7em" }} pb={{md:7,xs:0}}>
         SERVICES
       </Typography>

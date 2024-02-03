@@ -8,7 +8,8 @@ import ListItem from "@mui/material/ListItem";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import {
- 
+
+  Link,
   ListItemText,
 } from "@mui/material";
 
@@ -20,14 +21,14 @@ const Navbar = () => {
     setMobileOpen((prevState) => !prevState);
   }
 
-const drawerWidth=200;
+  const drawerWidth = 200;
 
   const drawer = (
     // toggle for small screen
     <Box
       onClick={() => handleDrawerToggle()}
       sx={{ textAlign: "center" }}
-      // px={3}
+    // px={3}
     >
       <List>
         <ListItem>
@@ -76,12 +77,12 @@ const drawerWidth=200;
 
   return (
     <>
-    <Box >
-      <AppBar
-        component="nav"
-        sx={{ bgcolor: "rgb(13, 56, 94)", px: { md: "3em" } }}
-      >
-        
+      <Box >
+        <AppBar
+          component="nav"
+          sx={{ bgcolor: "rgb(13, 56, 94)", px: { md: "3em" } }}
+        >
+
           <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
             <IconButton
               color="inherit"
@@ -97,21 +98,21 @@ const drawerWidth=200;
               component="div"
               sx={{
                 display: { xs: "none", sm: "none", md: "block" },
-                fontSize:'112px'
+                fontSize: '112px'
 
               }}
               href="/Home"
             >
-                <ListItemText
-                  href="/Home"
-                  sx={{
-                    display: { xs: "none", sm: "none", md: "block" },
+              <ListItemText
+                href="/Home"
+                sx={{
+                  display: { xs: "none", sm: "none", md: "block" },
 
-                    textDecoration: "none",
-                  }}
-                >
-                  <img width={100} height={50} src="https://sourcefellow.com/wp-content/uploads/2021/12/FinalSFLogo-removebg-preview.png" alt="Brand Logo" />
-                </ListItemText>
+                  textDecoration: "none",
+                }}
+              >
+                <img width={100} height={50} src="https://sourcefellow.com/wp-content/uploads/2021/12/FinalSFLogo-removebg-preview.png" alt="Brand Logo" />
+              </ListItemText>
             </ListItemText>
             <List
               sx={{
@@ -125,19 +126,16 @@ const drawerWidth=200;
               }}
             >
               <ListItem>
-              <ListItemText href="/Trails" sx={{ textDecoration: "none" }}>
+                <Link href="#about" sx={{ textDecoration: "none", color: "white", fontFamily: "sans-serif" }}>
                   About
-                </ListItemText>
+                </Link>
               </ListItem>
+             
               <ListItem>
-                <ListItemText href="/Trails" sx={{ textDecoration: "none" }}>
-                  Projects
-                </ListItemText>
-              </ListItem>
-              <ListItem>
-                <ListItemText href="/News" sx={{ textDecoration: "none" }}>
+
+                <Link href="#services" sx={{ textDecoration: "none", color: "white", fontFamily: "sans-serif" }}>
                   Services
-                </ListItemText>
+                </Link>
               </ListItem>
 
               <ListItem>
@@ -147,9 +145,9 @@ const drawerWidth=200;
               </ListItem>
 
               <ListItem>
-                <ListItemText href="/News" sx={{ textDecoration: "none" }}>
-                  Tools&Tips
-                </ListItemText>
+              <Link href="#work" sx={{ textDecoration: "none", color: "white", fontFamily: "sans-serif" }}>
+                  OurWork
+                </Link>
               </ListItem>
               <ListItem>
                 <ListItemText href="/Contact" sx={{ textDecoration: "none" }}>
@@ -157,27 +155,27 @@ const drawerWidth=200;
                 </ListItemText>
               </ListItem>
             </List>
-            
+
           </Toolbar>
-      </AppBar>
-      <nav>
-        <Drawer
-          variant="temporary"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true,
-          }}
-          sx={{
-            display: { xs: "block", sm: "block" },
-            
-            "& .MuiDrawer-paper": { boxSizing: "border-box", width:drawerWidth},
-          }}
-        >
-          {drawer}
-        </Drawer>
-      </nav>
-      <Toolbar />
+        </AppBar>
+        <nav>
+          <Drawer
+            variant="temporary"
+            open={mobileOpen}
+            onClose={handleDrawerToggle}
+            ModalProps={{
+              keepMounted: true,
+            }}
+            sx={{
+              display: { xs: "block", sm: "block" },
+
+              "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth },
+            }}
+          >
+            {drawer}
+          </Drawer>
+        </nav>
+        <Toolbar />
       </Box>
     </>
   );

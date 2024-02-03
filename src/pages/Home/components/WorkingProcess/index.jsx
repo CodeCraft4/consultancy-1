@@ -4,7 +4,7 @@ import React from "react";
 
 const WorkingProcess = () => {
   return (
-    <Box>
+    <Box id="work">
       <Typography
         textAlign={"center"}
         py={6}
