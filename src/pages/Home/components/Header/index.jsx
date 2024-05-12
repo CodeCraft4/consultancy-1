@@ -11,7 +11,6 @@ const Header = () => {
         width={"100%"}
         style={{ position: "relative", height: "100%" }}
       />
-      <Typography fontSize={{ md: "4em", xs: "2.5em" }} color={"white"} textAlign={"center"} position={"absolute"} top={{ md: 130, xs: 100 }} width={"100%"}>Shah Faisal</Typography>
       <Box position={{ md: "absolute", xs: "absolute" }} bottom={0} width={"100%"}>
         <Container maxWidth="md" sx={{ bgcolor: "white" }}>
           <Box textAlign={"center"} p={1} pt={4}>
